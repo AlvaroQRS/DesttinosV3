@@ -1,0 +1,1 @@
+var map;function initMap(){var a={lat:-12.863585,lng:-72.694632},b=new google.maps.Map(document.getElementById("map"),{zoom:17,center:a});new google.maps.Marker({position:a,map:b,title:"Destinos Quillabamba"})};

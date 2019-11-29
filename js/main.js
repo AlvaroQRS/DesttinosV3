@@ -1,0 +1,3 @@
+sal();(new WOW).init();
+$(document).ready(function(){$(".image-popup").magnificPopup({type:"image",closeOnContentClick:!0,mainClass:"mfp-img-mobile"});$(".zoom-gallery").magnificPopup({delegate:"a",type:"image",closeOnContentClick:!1,closeBtnInside:!1,mainClass:"mfp-with-zoom mfp-img-mobile",image:{verticalFit:!0,titleSrc:function(a){return a.el.attr("title")+' &middot; <a class="image-source-link" href="'+a.el.attr("data-source")}},gallery:{enabled:!0},zoom:{enabled:!0,duration:300,opener:function(a){return a.find("div")}}});$(".map-gal").magnificPopup({type:"image",
+gallery:{enabled:!1}})});$.Scrollax();
